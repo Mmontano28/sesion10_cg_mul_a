@@ -46,36 +46,34 @@ function init() {
 
     Delta=10;
     dim=4;
-    
+   /* 
     Cubo.push(cubo(dim, dim, dim, 0xFFDD00, 'Basic', false));
     Cubo.push(cubo(dim, dim, dim, 0x6FA8DC, 'Basic', false));
     Cubo.push(cubo(dim, dim, dim, 0x0000FF, 'Basic', false));
     
-    Cubo[0].translateX(Delta);
-    Cubo[1].translateY(Delta);
-    Cubo[2].translateZ(Delta);
+    Cubo[0].translateX(Delta); //El metodo que use fue el Metodo trnaslate, con un parametro en este caso en la coordenada x 
+    Cubo[1].translateY(Delta); //El metodo que use fue el Metodo trnaslate, con un parametro en este caso en la coordenada y 
+    Cubo[2].translateZ(Delta); //El metodo que use fue el Metodo trnaslate, con un parametro en este caso en la coordenada z 
    
-   // Cubo[3].position.set(0, 16, 0);
-   // Cubo[4].position.set(0, 20, 0);
-/*
-    for(var i=0; i<3; i++) //Estructura de repitición
+*/
+    for( i=0; i<3; i++) //Estructura de repitición
     {
       Cubo.push(cubo(dim, dim, dim, 0xFFFFFF, 'Standard', false));
       if (i==0)
         {
-         Cubo[i].translateX(Delta);    
+         Cubo[i].translateX(Delta);  //El metodo que use fue el Metodo translate, con un parametro en este caso en la coordenada x    
         }
       if (i==1)
         {
-         Cubo[i].translateY(Delta);    
+         Cubo[i].translateY(Delta);  //El metodo que use fue el Metodo translate, con un parametro en este caso en la coordenada y   
         }
-      if (i==)
+      if (i==2)
         {
-         Cubo[i].translateZ(Delta);    
+         Cubo[i].translateZ(Delta);  //El metodo que use fue el Metodo translate, con un parametro en este caso en la coordenada z   
         }
 
     }
-    */
+    
 
     //Luz (requerida para el material MeshLambertMaterial)
     light = new THREE.PointLight(0xFFFFFF); //  Luz proveniente de un punto en el espacio, 
