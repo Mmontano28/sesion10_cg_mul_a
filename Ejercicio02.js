@@ -45,12 +45,12 @@ function init() {
     Cubo = [];   // Definir un array unidimensional
 
     Delta=10;
-    dim=4;
+    Dim=4;
    Angulo= Math.PI/2;
 
-    Cubo.push(cubo(dim, dim, dim, 0xFFDD00, 'Basic', false));
-    Cubo.push(cubo(dim, dim, dim, 0x6FA8DC, 'Basic', false));
-    Cubo.push(cubo(dim, dim, dim, 0x0000FF, 'Basic', false));
+    Cubo.push(cubo(Dim, Dim, Dim, 0xFFDD00, 'Basic', false));
+    Cubo.push(cubo(Dim, Dim, Dim, 0x6FA8DC, 'Basic', false));
+    Cubo.push(cubo(Dim, Dim, Dim, 0x0000FF, 'Basic', false));
     
     Cubo[0].rotateZ(Angulo); //El metodo que use fue el Metodo rotate, con un parametro en este caso en la coordenada z para que quede en este eje
     Cubo[1].rotateX(Angulo); //El metodo que use fue el Metodo rotate, con un parametro en este caso en la coordenada x para que quede en este eje
