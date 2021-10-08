@@ -1,3 +1,4 @@
+  
 // create a scene, that will hold all our elements such as objects, cameras and lights. 
 var scene = new THREE.Scene();
 
@@ -46,17 +47,17 @@ function init() {
 
     Delta=10;
     Dim=4;
-    Numero=Math.round(Math.random() * (2 - 0) + 0);
+    Numero=Math.round(Math.random() * (2 - 0) + 0); //Se crea esta variable para generar un numero aleatorio entre el 0 y el 2 con Math.random y para que quede un numero entero se pone math.round 
     Numero2=Math.round(Math.random() * (2 - 0) + 0);
     Numero3=Math.round(Math.random() * (2 - 0) + 0);  
 
-    Angulo = prompt("Digite el ángulo que desea", " ejemplo 25");
+    Angulo = prompt("Digite el ángulo que desea en grados", " ejemplo. 25");//Se crea esta variable como cuadro de texto, donde al usuario le aparece un mensaje y a su vez la opcion de digitalizar un dato
 
-    Radianes=(Angulo)*((2*Math.PI)/(360));
+    Radianes=(Angulo)*((2*Math.PI)/(360));//Esta variable se usa para convertir de grados a radianes
 
-    if(Angulo != null)
+    if(Angulo != null)//Este if se usa para generar un cuadro de texto alerta, para dar un mensaje dependiendo lo que el usuario interactue
     {
-    alert("Has escrito " + Angulo);
+    alert("Su numero en radienes " + Radianes);
     }   
     else 
     {
@@ -104,4 +105,3 @@ function init() {
 
 
 }
-
