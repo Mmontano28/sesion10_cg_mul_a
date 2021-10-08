@@ -1,0 +1,8 @@
+Bibliografia 
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+https://uniwebsidad.com/libros/javascript/capitulo-7/utilidades-basicas-para-formularios
+https://www.delftstack.com/es/howto/java/java-random-character/#:~:text=Random%20es%20la%20clase%20más,carácter%20corresponde%20a%20un%20número
+https://www.todoexpertos.com/categorias/tecnologia-e-internet/desarrollo-de-sitios-web/javascript/respuestas/1740082/codigo-javascript-para-generar-letras-al-azar
+https://www.anerbarrena.com/javascript-prompt-js-5509/
+https://elfreneticoinformatico.com/cuadros-de-dialogo-con-javascript/
